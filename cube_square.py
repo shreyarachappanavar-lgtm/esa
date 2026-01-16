@@ -5,7 +5,7 @@ def cube_square(num):
     return square, cube
 
 if __name__ == "__main__":
-    sys.argv[cube_square]
+    sys.argv(cube_square)
     num = int(input("Enter a number: "))
     square, cube = cube_square(num)
     print("Square:", square)
